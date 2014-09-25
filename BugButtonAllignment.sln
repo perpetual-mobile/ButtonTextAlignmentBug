@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BugButtonAllignment", "BugButtonAllignment\BugButtonAllignment.shproj", "{4AD96488-9F41-45B5-A32F-ADCC7C1B7C1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugButtonAllignment.iOS", "iOS\BugButtonAllignment.iOS.csproj", "{DEB22DF3-EF12-4567-B924-CB09F013F0FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugButtonAllignment.Android", "Android\BugButtonAllignment.Android.csproj", "{07848502-B4CB-48AD-97BD-2160954ED017}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Release|iPhone.Build.0 = Release|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{07848502-B4CB-48AD-97BD-2160954ED017}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Debug|iPhone.Build.0 = Debug|iPhone
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Release|iPhone.ActiveCfg = Release|iPhone
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Release|iPhone.Build.0 = Release|iPhone
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Android\BugButtonAllignment.Android.csproj
+	EndGlobalSection
+EndGlobal
