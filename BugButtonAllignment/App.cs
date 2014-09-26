@@ -7,18 +7,23 @@ namespace BugButtonAllignment
     {
         public static Page GetMainPage()
         {   
-            Label l1 = new Label {
-                Text = "LabelText",
+            var label = new Label {
+                Text = "label",
+            };
+            var buttonBad = new Button {
+                Text = "buttonBad",
+                Command = new Command(() => label.Text += "1"),
+            };
+            var buttonGood = new Button {
+                Text = "buttonGood",
             };
 
             return new ContentPage { 
                 Content = new StackLayout {
                     Children = {
-                        l1,
-                        new Button {
-                            Text = "changeText",
-                            Command = new Command(() => l1.Text += "1"),
-                        },
+                        label,
+                        buttonBad,
+                        buttonGood,
                     }
                 }
             };
