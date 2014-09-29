@@ -5,7 +5,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BugButtonAllignment", "BugB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugButtonAllignment.iOS", "iOS\BugButtonAllignment.iOS.csproj", "{DEB22DF3-EF12-4567-B924-CB09F013F0FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugButtonAllignment.Android", "Android\BugButtonAllignment.Android.csproj", "{07848502-B4CB-48AD-97BD-2160954ED017}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Droid", "Droid\Droid.csproj", "{07848502-B4CB-48AD-97BD-2160954ED017}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +53,6 @@ Global
 		{DEB22DF3-EF12-4567-B924-CB09F013F0FC}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Android\BugButtonAllignment.Android.csproj
+		StartupItem = Droid\Droid.csproj
 	EndGlobalSection
 EndGlobal
