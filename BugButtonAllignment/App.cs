@@ -3,31 +3,36 @@ using Xamarin.Forms;
 
 namespace BugButtonAllignment
 {
-    public class App
+    public static class App
     {
         public static Page GetMainPage()
         {   
             var label = new Label {
                 Text = "label",
             };
-            var buttonBad = new Button {
-                Text = "buttonBad",
-                Command = new Command(() => label.Text += "1"),
+            var button = new MyButton {
+                Text = "button",
+                Command = new Command(o => {
+                    label.Text += ".";
+                }),
+                HeightRequest = 20,
+                VerticalOptions = LayoutOptions.FillAndExpand,
             };
-            var buttonGood = new Button {
-                Text = "buttonGood",
-            };
+//            var button2 = new MyButton {
+//                Text = "button2",
+//                Command = new Command(o => {
+//                    label.Text += ".";
+//                }),
+//                HeightRequest = 20,
+////                VerticalOptions = LayoutOptions.FillAndExpand,
+//            };
 
-            return new ContentPage { 
-                Content = new StackLayout {
-                    Children = {
-                        label,
-                        buttonBad,
-                        buttonGood,
-                    }
-                }
-            };
+            return new ContentPage { Content = new StackLayout { Children = { label, button } } };
         }
+    }
+
+    public class MyButton: Button
+    {
     }
 }
 
